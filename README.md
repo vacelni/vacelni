@@ -11,6 +11,7 @@ I build software that small businesses run on every day, and computer-vision too
 
 #### Other projects
 
+- **[Relasi CRM](https://github.com/vacelni/relasi-crm)** is a multi-tenant CRM for small sales teams: contacts, a deal pipeline, tasks and a WhatsApp-first activity log, with owner and sales roles enforced by Postgres row-level security. It scores leads and drafts follow-ups (rule-based when no AI key is set) and takes upgrades through Midtrans, with webhook signatures and amounts checked server side. Tested with Vitest, pgTAP and Playwright. [Try the demo](https://relasicrm.vercel.app).
 - **[MachineWatch](https://github.com/vacelni/machinewatch)** predicts remaining useful life for a fleet of jet engines from streaming sensor data (NASA C-MAPSS, test RMSE 14.5 cycles) and shows it on a live dashboard. Uses FastAPI with server-sent events, a model registry with a promotion gate, and Docker Compose.
 - **[Indonesian short-answer scoring](https://github.com/vacelni/indo-short-answer-scoring)** scores students' answers 0–5 against the teacher's key and shows its evidence. I evaluated it on questions the model has never seen (QWK 0.57), after finding and fixing data leakage in my first version. Uses scikit-learn, multilingual embeddings, an IndoBERT cross-encoder and FastAPI.
 - **[Smart Kebaya pattern drafting](https://github.com/vacelni/smart-kebaya-pattern)** drafts a made-to-measure kebaya pattern from 15 measurements and draws it to scale. Built with Kotlin Compose Multiplatform for Android and the web (Wasm).
